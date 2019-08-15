@@ -123,6 +123,8 @@ JVM 相关。(你读过 GC 相关源码吗？)代码规范，包命名规范收�
 
 ### 并发编程
 
+- Java 中的线程与 Linux 操作系统中的进程或者线程概念是如何映射的？
+
 - 对于原子操作而言，synchronized, cas, AtomicInterger, LongAdder 哪种方式性能较好，为什么？
 
 - synchronized 是如何保证 JMM 中的原子性、可见性与有序性的？
