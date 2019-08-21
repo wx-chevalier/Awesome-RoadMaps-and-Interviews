@@ -1,16 +1,30 @@
 # JavaScript Interview
 
-- V8 引擎中的对象与数组是如何存储的？为何 JS 的数组每个数据类型都可以不一样？为何 JS 的数组无需提前设置长度，是可变数组？为何数组可以像 Object 一样挂载任意属性？如果浏览器需要进行大规模数组运算，应该选择怎样的存储结构？
+# 异步并发
 
 - Event Loop 的基础概念是否了解？浏览器中的 Event Loop 与 Node.js 中的 Event Loop 有何区别？
+
+- JavaScript 常见的异步写法，Promise.finally 的实现？
+
+# TypeScript
+
+- 如何在 TypeScript 中设计简单的 IoC & DI 框架？如何实现简单的接口注解以自动生成类 Swagger 文档？
+
+- 在 TypeScript 中如何定义递归类型，譬如 `[1, [2, 3, 4], 5]`？
+
+- TypeScript 的 Partial 在底层是如何定义的？
+
+- TypeScript 中如何进行类型断言与类型捕获的？
+
+# V8
+
+- V8 引擎中的对象与数组是如何存储的？为何 JS 的数组每个数据类型都可以不一样？为何 JS 的数组无需提前设置长度，是可变数组？为何数组可以像 Object 一样挂载任意属性？如果浏览器需要进行大规模数组运算，应该选择怎样的存储结构？
 
 # 数据结构
 
 ## 数组
 
-- 找出整型数组中乘积最大的三个数
-
-给定一个包含整数的无序数组，要求找出乘积最大的三个数。
+- 找出整型数组中乘积最大的三个数，给定一个包含整数的无序数组，要求找出乘积最大的三个数。
 
 ```js
 let unsorted_array = [-10, 7, 29, 30, 5, -10, -70];
@@ -39,9 +53,7 @@ function computeProduct(unsorted) {
 }
 ```
 
-- 寻找连续数组中的缺失数
-
-给定某无序数组，其包含了 n 个连续数字中的 n - 1 个，已知上下边界，要求以`O(n)`的复杂度找出缺失的数字。
+- 寻找连续数组中的缺失数，给定某无序数组，其包含了 n 个连续数字中的 n - 1 个，已知上下边界，要求以 `O(n)` 的复杂度找出缺失的数字。
 
 ```js
 // The output of the function should be 8
@@ -68,9 +80,7 @@ function findMissingNumber(array_of_integers, upper_bound, lower_bound) {
 }
 ```
 
-- 数组去重
-
-给定某无序数组，要求去除数组中的重复数字并且返回新的无重复数组。
+- 数组去重，给定某无序数组，要求去除数组中的重复数字并且返回新的无重复数组。
 
 ```js
 // ES6 Implementation
@@ -97,9 +107,7 @@ function uniqueArray(array) {
 }
 ```
 
-- 数组中元素最大差值计算
-
-给定某无序数组，求取任意两个元素之间的最大差值，注意，这里要求差值计算中较小的元素下标必须小于较大元素的下标。譬如`[7, 8, 4, 9, 9, 15, 3, 1, 10]`这个数组的计算值是 11( 15 - 4 ) 而不是 14(15 - 1)，因为 15 的下标小于 1。
+- 数组中元素最大差值计算，给定某无序数组，求取任意两个元素之间的最大差值，注意，这里要求差值计算中较小的元素下标必须小于较大元素的下标。譬如`[7, 8, 4, 9, 9, 15, 3, 1, 10]`这个数组的计算值是 11( 15 - 4 ) 而不是 14(15 - 1)，因为 15 的下标小于 1。
 
 ```js
 let array = [7, 8, 4, 9, 9, 15, 3, 1, 10];
@@ -133,9 +141,7 @@ function findLargestDifference(array) {
 }
 ```
 
-- 数组中元素乘积
-
-给定某无序数组，要求返回新数组 output ，其中 output[i] 为原数组中除了下标为 i 的元素之外的元素乘积，要求以 O(n) 复杂度实现：
+- 数组中元素乘积，给定某无序数组，要求返回新数组 output ，其中 output[i] 为原数组中除了下标为 i 的元素之外的元素乘积，要求以 O(n) 复杂度实现。
 
 ```js
 let firstArray = [2, 2, 4, 1];
@@ -166,9 +172,7 @@ function productExceptSelf(numArray) {
 }
 ```
 
-- 数组交集
-
-给定两个数组，要求求出两个数组的交集，注意，交集中的元素应该是唯一的。
+- 数组交集，给定两个数组，要求求出两个数组的交集，注意，交集中的元素应该是唯一的，`intersection([2, 2, 4, 1], [1, 2, 0, 2]); // [2, 1]`。
 
 ```js
 let firstArray = [2, 2, 4, 1];
@@ -201,9 +205,7 @@ function intersection(firstArray, secondArray) {
 
 ## 字符串
 
-- 颠倒字符串
-
-给定某个字符串，要求将其中单词倒转之后然后输出，譬如"Welcome to this Javascript Guide!" 应该输出为 "emocleW ot siht tpircsavaJ !ediuG"。
+- 颠倒字符串，给定某个字符串，要求将其中单词倒转之后然后输出，譬如 "Welcome to this Javascript Guide!" 应该输出为 "emocleW ot siht tpircsavaJ !ediuG"。
 
 ```js
 let string = 'Welcome to this Javascript Guide!';
@@ -222,9 +224,7 @@ function reverseBySeparator(string, separator) {
 }
 ```
 
-- 乱序同字母字符串
-
-给定两个字符串，判断是否颠倒字母而成的字符串，譬如 `Mary` 与 `Army` 就是同字母而顺序颠倒：
+- 乱序同字母字符串，给定两个字符串，判断是否颠倒字母而成的字符串，譬如 `Mary` 与 `Army` 就是同字母而顺序颠倒：
 
 ```js
 let firstWord = 'Mary';
@@ -250,9 +250,7 @@ function isAnagram(first, second) {
 }
 ```
 
-- 回文字符串
-
-判断某个字符串是否为回文字符串，譬如`racecar`与`race car`都是回文字符串：
+- 回文字符串，判断某个字符串是否为回文字符串，譬如 `racecar` 与 `race car` 都是回文字符串：
 
 ```js
 isPalindrome('racecar'); // true
@@ -274,7 +272,7 @@ function isPalindrome(word) {
 
 ## 栈与队列
 
-- 使用两个栈实现入队与出队
+- 使用两个栈实现入队与出队。
 
 ```js
 let inputStack = []; // First stack
@@ -300,9 +298,7 @@ function dequeue(stackInput, stackOutput) {
 }
 ```
 
-- 判断大括号是否闭合
-
-创建一个函数来判断给定的表达式中的大括号是否闭合：
+- 判断大括号是否闭合，创建一个函数来判断给定的表达式中的大括号是否闭合，`isBalanced({}{{}); // false`。
 
 ```js
 let expression = '{{}}{}{}';
@@ -338,9 +334,7 @@ function isBalanced(expression) {
 
 ## 递归
 
-- 二进制转换
-
-通过某个递归函数将输入的数字转化为二进制字符串：
+- 二进制转换，通过某个递归函数将输入的数字转化为二进制字符串，`decimalToBinary(1000); // 1111101000`。
 
 ```js
 decimalToBinary(3); // 11
@@ -364,7 +358,7 @@ function decimalToBinary(digit) {
 }
 ```
 
-- 二分搜索
+- 二分搜索，`recursiveBinarySearch(array, value, leftPosition, rightPosition)`
 
 ```js
 function recursiveBinarySearch(array, value, leftPosition, rightPosition) {
@@ -384,7 +378,7 @@ function recursiveBinarySearch(array, value, leftPosition, rightPosition) {
 
 ## 数字
 
-- 判断是否为 2 的指数值
+- 判断是否为 2 的指数值，`isPowerOfTwo(64); // true`。
 
 ```js
 isPowerOfTwo(4); // true
@@ -412,11 +406,3 @@ function isPowerOfTwoZeroCase(number) {
   return number !== 0 && (number & (number - 1)) === 0;
 }
 ```
-
-# 异步并发
-
-- JavaScript 常见的异步写法，Promise.finally 的实现？
-
-# TypeScript
-
-- 如何在 TypeScript 中设计简单的 IoC & DI 框架？如何实现简单的接口注解以自动生成类 Swagger 文档？

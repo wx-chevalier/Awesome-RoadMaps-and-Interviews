@@ -333,7 +333,6 @@ public class Singleton {
 # Hibernate / 数据库
 
 - 请解释下 ORM。
-- 简述下 Hibernate 的优劣特性。
 - Hibernate 与 JPA 区别在哪？
 - Hibernate 最新版提供了哪些特性？
 - 什么是懒加载(Lazy Loading)？
