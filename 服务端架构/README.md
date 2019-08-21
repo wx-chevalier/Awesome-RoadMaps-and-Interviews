@@ -1,4 +1,4 @@
-# Backend Interview | 服务端开发面试题集锦
+# Backend Interview | 服务端架构面试题集锦
 
 [Backend Interview]() 是 [Awesome Interviews]() 系列的组成，涵盖了笔者在日常积累中总结而来的可成为面试题的知识要点与场景案例。
 
@@ -379,6 +379,14 @@ public class Singleton {
 - 你使用什么版本管理工具？
 - 分支(Branch)与标签(Tag)之间的区别在哪里？
 - 你常用的持续集成(Continuous Integration)、静态代码分析(Static Code Analysis)工具有哪些？
+
+# 综合系统设计能力
+
+- 秒杀系统设计。
+
+- 短链接系统设计。
+
+- 点赞系统设计。
 
 # 链接
 
