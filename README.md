@@ -2,9 +2,11 @@
 
 # Awesome Interviews
 
-古语有云，知行合一，学以致用。Awesome Interviews 系列不仅仅是为了应对面试，也是对整个 ITCS 体系融会贯通的程度的检验。
+古语有云，知行合一，学以致用，Awesome Interviews 系列不仅仅是为了应对面试，也是对整个 ITCS 体系融会贯通的程度的检验；同时 Awesome Interviews 也包含了笔者多年面试与考察候选人的心得体会。
 
-要想短时间内通过一两个问题，就看出一个人在某个专业的水平，有一个基本方法，叫“网状问题点状问，点状问题网状问”。什么意思呢？就是，如果是一个复杂的网状问题，你就考他是不是能够三言两语跟外行说清楚。如果是一个简单的问题呢？你就看他能不能把它还原成一个知识网络。他说，用这个工具来衡量一个人的专业知识，问两个问题就够了，非常准。
+- 点面结合：网状问题点状问，点状问题网状问，如果是一个复杂的网状问题，你就考他是不是能够三言两语跟外行说清楚。如果是一个简单的问题呢？你就看他能不能把它还原成一个知识网络。
+
+- 正反结合：对于某个技术、框架，不仅要问它的优势，也要问在实际应用过程中感受到的痛点与不足。
 
 # Home & More | 延伸阅读
 
@@ -12,7 +14,7 @@
 
 您可以通过以下导航来在 Gitbook 中阅读笔者的系列文章，涵盖了技术资料归纳、编程语言与理论、Web 与大前端、服务端开发与基础架构、云计算与大数据、数据科学与人工智能、产品设计等多个领域：
 
-- 知识体系：《[Awesome Lists](https://ngte-al.gitbook.io/i/)》、《[Awesome CheatSheets](https://ngte-ac.gitbook.io/i/)》、《[Awesome Interviews](https://github.com/wx-chevalier/Awesome-Interviews)》、《[Awesome RoadMaps](https://github.com/wx-chevalier/Awesome-RoadMaps)》、《[Awesome MindMaps](https://github.com/wx-chevalier/Awesome-MindMaps)》、《[Awesome-CS-Books-Warehouse](https://github.com/wx-chevalier/Awesome-CS-Books-Warehouse)》
+- 知识体系：《[Awesome Lists | CS 资料集锦](https://ngte-al.gitbook.io/i/)》、《[Awesome CheatSheets | 速学速查手册](https://ngte-ac.gitbook.io/i/)》、《[Awesome Interviews | 求职面试必备](https://github.com/wx-chevalier/Awesome-Interviews)》、《[Awesome RoadMaps | 程序员进阶指南](https://github.com/wx-chevalier/Awesome-RoadMaps)》、《[Awesome MindMaps | 知识脉络思维脑涂](https://github.com/wx-chevalier/Awesome-MindMaps)》、《[Awesome-CS-Books | 开源书籍（.pdf）汇总](https://github.com/wx-chevalier/Awesome-CS-Books)》
 
 - 编程语言：《[编程语言理论](https://ngte-pl.gitbook.io/i/)》、《[Java 实战](https://ngte-pl.gitbook.io/i/java/java)》、《[JavaScript 实战](https://ngte-pl.gitbook.io/i/javascript/javascript)》、《[Go 实战](https://ngte-pl.gitbook.io/i/go/go)》、《[Python 实战](https://ngte-pl.gitbook.io/i/python/python)》、《[Rust 实战](https://ngte-pl.gitbook.io/i/rust/rust)》
 

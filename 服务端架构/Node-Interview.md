@@ -9,3 +9,5 @@
 # Framework
 
 # GraphQL
+
+- GraphQL 与 REST 在设计理念上有和区别？在实际使用 GraphQL 的过程中有何痛点？
