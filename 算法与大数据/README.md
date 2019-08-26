@@ -9,3 +9,7 @@
 7、AdaBoost 是如何改变样本权重，GBDT 分类树的基模型是？（贝壳）
 8、gbdt,xgboost,lgbm 的区别(百度、滴滴、阿里，头条)
 9、bagging 为什么能减小方差？（知乎）
+
+# 链接
+
+- https://www.zhihu.com/question/62482926
