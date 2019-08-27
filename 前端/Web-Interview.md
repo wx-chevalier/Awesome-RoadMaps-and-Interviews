@@ -30,6 +30,10 @@
 
 - MobX 是如何实现响应式监听的？MobX 与 Redux 相比其适用场景、工程案例上有何差异？
 
+## 响应式界面
+
+- 如何实现动态主题切换的效果？
+
 # 架构与优化
 
 - 简单概述浏览器工作原理，即从用户输入某个 URL 开始到渲染，经历了哪些主要的步骤？浏览器的核心组件包含哪些？
@@ -70,8 +74,8 @@ class CustomForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-          <input type="text" ref={input => (this.input = input)} />
-          <button type="submit">Submit</button> {' '}
+          <input type="text" ref={input => (this.input = input)} /> {' '}
+        <button type="submit">Submit</button> {' '}
       </form>
     );
   }
@@ -85,8 +89,8 @@ function CustomForm({ handleSubmit }) {
   let inputElement;
   return (
     <form onSubmit={() => handleSubmit(inputElement.value)}>
-        <input type="text" ref={input => (inputElement = input)} />
-        <button type="submit">Submit</button> {' '}
+        <input type="text" ref={input => (inputElement = input)} /> {' '}
+      <button type="submit">Submit</button> {' '}
     </form>
   );
 }
