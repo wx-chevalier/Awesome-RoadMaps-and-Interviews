@@ -1,5 +1,7 @@
 # Node Interview
 
+- NPM 安装依赖的时候是如何处理依赖冲突问题的？
+
 # Internals
 
 - Node 的底层事件模型是如何实现的？
