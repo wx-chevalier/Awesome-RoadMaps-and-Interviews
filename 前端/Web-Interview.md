@@ -74,8 +74,8 @@ class CustomForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-          <input type="text" ref={input => (this.input = input)} />
-          <button type="submit">Submit</button> {' '}
+          <input type="text" ref={input => (this.input = input)} /> {' '}
+        <button type="submit">Submit</button> {' '}
       </form>
     );
   }
@@ -89,8 +89,8 @@ function CustomForm({ handleSubmit }) {
   let inputElement;
   return (
     <form onSubmit={() => handleSubmit(inputElement.value)}>
-        <input type="text" ref={input => (inputElement = input)} />
-        <button type="submit">Submit</button> {' '}
+        <input type="text" ref={input => (inputElement = input)} /> {' '}
+      <button type="submit">Submit</button> {' '}
     </form>
   );
 }
@@ -283,3 +283,7 @@ this.setState((prevState, props) => {
 - v-if 指令是如何实现的？
 
 - vue-class-component 是如何实现的？如何在页面跳转前后添加自定义的操作？如何自定义装饰器？
+
+# 链接
+
+- https://zhuanlan.zhihu.com/p/74258351
