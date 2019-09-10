@@ -18,7 +18,14 @@
 
 ## 状态管理
 
-- Redux 的设计理念，其与 Flux 的区别？为什么 Redux 的 Store 会使用不可变数据类型？
+- Redux 的设计理念，其与 Flux 的区别？为什么 Redux 的 Store 会使用不可变数据类型？如下的使用可能会有哪些风险？
+
+```ts
+export default connect(
+  state => (...state),
+  { ...commonActions }
+)(withRouter(App));
+```
 
 - Redux 中的 Reducer 为何要设置为纯函数？常见的 Side Effects 应当在哪个模块中处理？combineReducer 函数是如何实现的？
 
