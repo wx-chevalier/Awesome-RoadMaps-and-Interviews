@@ -8,7 +8,13 @@
 
 - 正反结合：对于某个技术、框架，不仅要问它的优势，也要问在实际应用过程中感受到的痛点与不足。
 
-# Home & More | 延伸阅读
+# About 
+
+## Motivation & Credits
+
+- [反向面试](https://github.com/yifeikong/reverse-interview-zh)
+
+## Home & More | 延伸阅读
 
 ![技术视野](https://s2.ax1x.com/2019/09/30/uJWQTx.jpg)
 
