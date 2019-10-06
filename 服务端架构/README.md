@@ -390,3 +390,4 @@ public class Singleton {
 # 链接
 
 - https://zhuanlan.zhihu.com/p/70410011
+- https://zhuanlan.zhihu.com/p/78310685 面试碰到分布式技术面试题该怎么解答？
