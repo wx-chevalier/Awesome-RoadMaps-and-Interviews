@@ -288,7 +288,7 @@ public class Singleton {
 - https://mp.weixin.qq.com/s/4Zip0DVMGuJPMUnv_ySGIg
 - https://github.com/digoal/blog/blob/master/201806/20180623_01.md
 
-> [Java 进阶面试问题列表](https://zhuanlan.zhihu.com/p/24910702)翻译自[Java developer interview questions: The hard part](https://howtotrainyourjava.com/2016/07/14/java-developer-interview-questions-the-hard-part/)，从属于笔者的[Java 入门与工程实践](https://github.com/wx-chevalier/Java-Introduction-And-Engineering-Practices)系列。最近公司打算招几个 Java 开发人员，正巧在 Reddit 上看到了该文，顺手翻译了一波。只是单纯的问题列表，可能较水，慎进。
+- [Java 进阶面试问题列表](https://zhuanlan.zhihu.com/p/24910702)翻译自[Java developer interview questions: The hard part](https://howtotrainyourjava.com/2016/07/14/java-developer-interview-questions-the-hard-part/)，从属于笔者的[Java 入门与工程实践](https://github.com/wx-chevalier/Java-Introduction-And-Engineering-Practices)系列。最近公司打算招几个 Java 开发人员，正巧在 Reddit 上看到了该文，顺手翻译了一波。只是单纯的问题列表，可能较水，慎进。
 
 ![](https://coding.net/u/hoteam/p/Cache/git/raw/master/2017/1/2/QQ2017011611fas.png)
 
