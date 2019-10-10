@@ -1,5 +1,29 @@
 # JavaScript Interview
 
+# 语法基础
+
+## 类与对象
+
+- 以下代码的输出是什么样子的？
+
+```js
+class Base {
+  constructor(data = {}) {
+    Object.assign(this, data);
+  }
+}
+
+class A extends Base {
+  a = null;
+
+  constructor(data = {}) {
+    super(data);
+  }
+}
+
+new A({ a: 1 }); // { a: null }
+```
+
 # 异步并发
 
 - Event Loop 的基础概念是否了解？浏览器中的 Event Loop 与 Node.js 中的 Event Loop 有何区别？
@@ -12,7 +36,7 @@
 
 - 在 TypeScript 中如何定义递归类型，譬如 `[1, [2, 3, 4], 5]`？
 
-- TypeScript 的 Partial 在底层是如何定义的？
+- TypeScript 的 Partial 在底层是如何定义的？如果要实现 DeepPartial，应该如何定义？
 
 - TypeScript 中如何进行类型断言与类型捕获的？
 
