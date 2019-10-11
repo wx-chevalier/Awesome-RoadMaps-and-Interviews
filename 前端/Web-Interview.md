@@ -59,7 +59,7 @@ export default connect(
 
 - 为何在 JSX 或者 TSX 的文件首部需要引入 React？
 
-- Hooks 函数式组件与类组件相比各有何优劣？
+- Hooks 函数式组件与类组件相比各有何优劣？为什么 useCallback 中会存在所谓闭包冻结的现象？
 
 - 猜想一下，React DevTools 是如何监听 React 的状态变化？
 
