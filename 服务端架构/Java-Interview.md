@@ -18,6 +18,10 @@
 
 # Spring
 
+## IoC
+
+- 为什么不推荐使用 Autowired？在多线程环境下为何有时候 Autowired 会无效？应该如何保证多线程下的注入？
+
 ## MyBatis
 
 ## Hibernate
