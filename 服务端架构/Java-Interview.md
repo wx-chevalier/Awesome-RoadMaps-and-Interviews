@@ -29,6 +29,10 @@ public static void main(String[] args) {
 
 - StringBuilder为什么线程不安全？
 
+# 工程实践
+
+- 你是如何进行线上应用调试的？
+
 # 并发编程
 
 ## 锁
