@@ -33,6 +33,8 @@ public static void main(String[] args) {
 
 - 你是如何进行线上应用调试的？
 
+- 当发现 CPU 利用率及平均负载较高时，应该如何排查？
+
 # 并发编程
 
 ## 线程协作
@@ -40,6 +42,8 @@ public static void main(String[] args) {
 ## 线程安全
 
 ### 锁
+
+- synchronized 关键字是如何保证原子性、可见性、有序性这几个问题的？
 
 - 常见的锁优化的思路有哪些？
 
