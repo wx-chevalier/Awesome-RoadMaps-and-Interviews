@@ -27,7 +27,7 @@ public static void main(String[] args) {
 }
 ```
 
-- StringBuilder为什么线程不安全？
+- StringBuilder 为什么线程不安全？
 
 # 工程实践
 
@@ -35,11 +35,21 @@ public static void main(String[] args) {
 
 # 并发编程
 
-## 锁
+## 线程协作
 
-## 同步
+## 线程安全
+
+### 锁
+
+- 常见的锁优化的思路有哪些？
+
+### 同步
 
 - CountDownLatch、CyclicBarrier、Semaphore 共同之处与区别以及各自使用场景？
+
+### 并发容器
+
+- ConcurrentHashMap 是如何提高吞吐量的？
 
 ## NIO
 
