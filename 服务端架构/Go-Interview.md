@@ -1,6 +1,16 @@
 # Go Interview
 
-![](https://i.postimg.cc/KvBnMY5N/image.png)
+# 语法基础
+
+## 数据结构
+
+- Go 中的数组是引用类型还是值类型？空数组的作用是什么？
+
+- Go 如何在切片中间插入某个元素？
+
+# 并发编程
+
+# Web 开发
 
 # 链接
 
