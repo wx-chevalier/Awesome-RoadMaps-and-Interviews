@@ -35,6 +35,10 @@ public static void main(String[] args) {
 
 - 当发现 CPU 利用率及平均负载较高时，应该如何排查？
 
+## Maven
+
+- Maven 插件（plugin）goal 的执行与生命周期（lifecycle）phase 的关系？
+
 # 并发编程
 
 ## 线程协作
