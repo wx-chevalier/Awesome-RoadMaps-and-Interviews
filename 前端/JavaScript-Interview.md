@@ -232,13 +232,13 @@ function intersection(firstArray, secondArray) {
 - 颠倒字符串，给定某个字符串，要求将其中单词倒转之后然后输出，譬如 "Welcome to this Javascript Guide!" 应该输出为 "emocleW ot siht tpircsavaJ !ediuG"。
 
 ```js
-let string = 'Welcome to this Javascript Guide!';
+let string = "Welcome to this Javascript Guide!";
 
 // Output becomes !ediuG tpircsavaJ siht ot emocleW
-let reverseEntireSentence = reverseBySeparator(string, '');
+let reverseEntireSentence = reverseBySeparator(string, "");
 
 // Output becomes emocleW ot siht tpircsavaJ !ediuG
-let reverseEachWord = reverseBySeparator(reverseEntireSentence, ' ');
+let reverseEachWord = reverseBySeparator(reverseEntireSentence, " ");
 
 function reverseBySeparator(string, separator) {
   return string
@@ -251,8 +251,8 @@ function reverseBySeparator(string, separator) {
 - 乱序同字母字符串，给定两个字符串，判断是否颠倒字母而成的字符串，譬如 `Mary` 与 `Army` 就是同字母而顺序颠倒：
 
 ```js
-let firstWord = 'Mary';
-let secondWord = 'Army';
+let firstWord = "Mary";
+let secondWord = "Army";
 
 isAnagram(firstWord, secondWord); // true
 
@@ -262,13 +262,13 @@ function isAnagram(first, second) {
   let b = second.toLowerCase(); // Sort the strings, and join the resulting array to a string. Compare the results
 
   a = a
-    .split('')
+    .split("")
     .sort()
-    .join('');
+    .join("");
   b = b
-    .split('')
+    .split("")
     .sort()
-    .join('');
+    .join("");
 
   return a === b;
 }
@@ -277,19 +277,19 @@ function isAnagram(first, second) {
 - 回文字符串，判断某个字符串是否为回文字符串，譬如 `racecar` 与 `race car` 都是回文字符串：
 
 ```js
-isPalindrome('racecar'); // true
-isPalindrome('race Car'); // true
+isPalindrome("racecar"); // true
+isPalindrome("race Car"); // true
 
 function isPalindrome(word) {
   // Replace all non-letter chars with "" and change to lowercase
-  let lettersOnly = word.toLowerCase().replace(/\s/g, ''); // Compare the string with the reversed version of the string
+  let lettersOnly = word.toLowerCase().replace(/\s/g, ""); // Compare the string with the reversed version of the string
 
   return (
     lettersOnly ===
     lettersOnly
-      .split('')
+      .split("")
       .reverse()
-      .join('')
+      .join("")
   );
 }
 ```
@@ -325,12 +325,12 @@ function dequeue(stackInput, stackOutput) {
 - 判断大括号是否闭合，创建一个函数来判断给定的表达式中的大括号是否闭合，`isBalanced({}{{}); // false`。
 
 ```js
-let expression = '{{}}{}{}';
-let expressionFalse = '{}{{}';
+let expression = "{{}}{}{}";
+let expressionFalse = "{}{{}";
 
 isBalanced(expression); // true
 isBalanced(expressionFalse); // false
-isBalanced(''); // true
+isBalanced(""); // true
 
 function isBalanced(expression) {
   let checkString = expression;
@@ -339,9 +339,9 @@ function isBalanced(expression) {
   if (checkString.length <= 0) return true;
 
   for (let i = 0; i < checkString.length; i++) {
-    if (checkString[i] === '{') {
+    if (checkString[i] === "{") {
       stack.push(checkString[i]);
-    } else if (checkString[i] === '}') {
+    } else if (checkString[i] === "}") {
       // Pop on an empty array is undefined
       if (stack.length > 0) {
         stack.pop();
@@ -377,7 +377,7 @@ function decimalToBinary(digit) {
     }
   } else {
     // Exit condition
-    return '';
+    return "";
   }
 }
 ```

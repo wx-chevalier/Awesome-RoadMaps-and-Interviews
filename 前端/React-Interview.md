@@ -17,13 +17,13 @@ Refs 是 React 提供给我们的安全访问 DOM 元素或者某个组件实例
 ```js
 class CustomForm extends Component {
   handleSubmit = () => {
-    console.log('Input Value: ', this.input.value);
+    console.log("Input Value: ", this.input.value);
   };
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-          <input type="text" ref={input => (this.input = input)} /> {' '}
-        <button type="submit">Submit</button> {' '}
+          <input type="text" ref={input => (this.input = input)} />
+          <button type="submit">Submit</button> {" "}
       </form>
     );
   }
@@ -37,8 +37,8 @@ function CustomForm({ handleSubmit }) {
   let inputElement;
   return (
     <form onSubmit={() => handleSubmit(inputElement.value)}>
-        <input type="text" ref={input => (inputElement = input)} /> {' '}
-      <button type="submit">Submit</button> {' '}
+        <input type="text" ref={input => (inputElement = input)} />
+        <button type="submit">Submit</button> {" "}
     </form>
   );
 }
@@ -71,8 +71,8 @@ render () {
 ```
 
 ```js
-import React, { Component, PropTypes } from 'react';
-import fetchUser from 'twitter';
+import React, { Component, PropTypes } from "react";
+import fetchUser from "twitter";
 // fetchUser take in a username returns a promise
 // which will resolve with that username's data.
 class Twitter extends Component {
@@ -83,8 +83,8 @@ class Twitter extends Component {
 如果你还不熟悉回调渲染模式(Render Callback Pattern)，这个代码可能看起来有点怪。这种模式中，组件会接收某个函数作为其子组件，然后在渲染函数中以`props.children`进行调用：
 
 ```js
-import React, { Component, PropTypes } from 'react';
-import fetchUser from 'twitter';
+import React, { Component, PropTypes } from "react";
+import fetchUser from "twitter";
 class Twitter extends Component {
   state = {
     user: null
@@ -116,7 +116,7 @@ React 的核心组成之一就是能够维持内部状态的自治组件，不�
 ```js
 class ControlledForm extends Component {
   state = {
-    username: ''
+    username: ""
   };
   updateUsername = e => {
     this.setState({
@@ -127,13 +127,13 @@ class ControlledForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        {' '}
+        {" "}
         <input
           type="text"
           value={this.state.username}
           onChange={this.updateUsername}
         />
-        <button type="submit">Submit</button> {' '}
+        <button type="submit">Submit</button> {" "}
       </form>
     );
   }
@@ -145,13 +145,13 @@ class ControlledForm extends Component {
 ```js
 class UnControlledForm extends Component {
   handleSubmit = () => {
-    console.log('Input Value: ', this.input.value);
+    console.log("Input Value: ", this.input.value);
   };
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
         <input type="text" ref={input => (this.input = input)} />
-        <button type="submit">Submit</button> {' '}
+        <button type="submit">Submit</button> {" "}
       </form>
     );
   }
@@ -209,8 +209,8 @@ createElement 函数是 JSX 编译之后使用的创建 React Element 的函数�
 该函数会在`setState`函数调用完成并且组件开始重渲染的时候被调用，我们可以用该函数来监听渲染是否完成：
 
 ```js
-this.setState({ username: 'tylermcginnis33' }, () =>
-  console.log('setState has finished and the component has re-rendered.')
+this.setState({ username: "tylermcginnis33" }, () =>
+  console.log("setState has finished and the component has re-rendered.")
 );
 ```
 

@@ -134,12 +134,12 @@ JVM 相关。(你读过 GC 相关源码吗？)代码规范，包命名规范收�
 ```java
 public class Singleton {
   static Singleton instance;
-  static Singleton getInstance(){
+
+  static Singleton getInstance() {
     if (instance == null) {
-      synchronized(Singleton.class) {
-        if (instance == null)
-          instance = new Singleton();
-        }
+      synchronized (Singleton.class) {
+        if (instance == null) instance = new Singleton();
+      }
     }
     return instance;
   }
