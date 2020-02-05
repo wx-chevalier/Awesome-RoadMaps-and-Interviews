@@ -4,6 +4,8 @@
 
 ## 类与对象
 
+- 为什么 Java 文件中只能含有一个 public 类?
+
 ## 异常处理
 
 - Java 中 Error 与 Exception 有何设计区别？
