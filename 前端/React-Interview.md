@@ -8,7 +8,7 @@
 
 - 在什么情况下你会优先选择使用 Class Component 而不是 Functional Component？
 
-在组件需要包含内部状态或者使用到生命周期函数的时候使用 Class Component ，否则使用函数式组件。
+在组件需要包含内部状态或者使用到生命周期函数的时候使用 Class Component，否则使用函数式组件。
 
 - React 中 refs 的作用是什么？
 
@@ -22,8 +22,8 @@ class CustomForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-          <input type="text" ref={input => (this.input = input)} />
-          <button type="submit">Submit</button> {" "}
+          <input type="text" ref={input => (this.input = input)} /> {" "}
+        <button type="submit">Submit</button> {" "}
       </form>
     );
   }
@@ -37,8 +37,8 @@ function CustomForm({ handleSubmit }) {
   let inputElement;
   return (
     <form onSubmit={() => handleSubmit(inputElement.value)}>
-        <input type="text" ref={input => (inputElement = input)} />
-        <button type="submit">Submit</button> {" "}
+        <input type="text" ref={input => (inputElement = input)} /> {" "}
+      <button type="submit">Submit</button> {" "}
     </form>
   );
 }

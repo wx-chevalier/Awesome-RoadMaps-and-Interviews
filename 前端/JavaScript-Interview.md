@@ -165,7 +165,7 @@ function findLargestDifference(array) {
 }
 ```
 
-- 数组中元素乘积，给定某无序数组，要求返回新数组 output ，其中 output[i] 为原数组中除了下标为 i 的元素之外的元素乘积，要求以 O(n) 复杂度实现。
+- 数组中元素乘积，给定某无序数组，要求返回新数组 output，其中 output[i] 为原数组中除了下标为 i 的元素之外的元素乘积，要求以 O(n) 复杂度实现。
 
 ```js
 let firstArray = [2, 2, 4, 1];
