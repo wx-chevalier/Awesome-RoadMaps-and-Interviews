@@ -1,5 +1,7 @@
 # Database Interview
 
+- 简述 B+Tree 与 LSM Tree 各自的原理，及优劣。
+
 # MySQL
 
 - MySQL 的 utf8 与 utf8mb4 两种格式的区别在哪里？
