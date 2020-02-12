@@ -47,6 +47,8 @@ public static void main(String[] args) {
 
 ## 线程协作
 
+- 为什么不建议使用 Executors？
+
 ## 线程安全
 
 ### 锁
