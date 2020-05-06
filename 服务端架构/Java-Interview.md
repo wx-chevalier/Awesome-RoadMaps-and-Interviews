@@ -47,6 +47,10 @@ public static void main(String[] args) {
 
 - Maven 插件（plugin）goal 的执行与生命周期（lifecycle）phase 的关系？
 
+## 数据访问
+
+- 一般数据库连接池应该设置为多少？
+
 # 并发编程
 
 ## 线程协作
