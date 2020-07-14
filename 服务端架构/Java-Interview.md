@@ -51,6 +51,8 @@ public static void main(String[] args) {
 
 - 一般数据库连接池应该设置为多少？
 
+- 数据量很大，分页查询很慢，有什么优化方案？
+
 # 并发编程
 
 - Thread.sleep(0) 的作用是什么？
