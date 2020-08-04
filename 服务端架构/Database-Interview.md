@@ -2,6 +2,10 @@
 
 - 简述 B+Tree 与 LSM Tree 各自的原理，及优劣。
 
+# SQL
+
+- 为什么我们不提倡进行多表 Join 操作？
+
 # MySQL
 
 - MySQL 的 utf8 与 utf8mb4 两种格式的区别在哪里？
