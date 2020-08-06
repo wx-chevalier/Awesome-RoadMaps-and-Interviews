@@ -6,6 +6,8 @@
     - [Workflow Interview](/CS%20通识/Workflow-Interview.md)
   - [产品经理](/产品经理/README.md)
     - [JD](/产品经理/JD.md)
+  - 其他
+    - [总经理助理](/其他/总经理助理.md)
   - [前端](/前端/README.md)
     - [JD](/前端/JD.md)
     - [JavaScript Interview](/前端/JavaScript-Interview.md)
