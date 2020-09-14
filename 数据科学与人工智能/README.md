@@ -10,6 +10,7 @@
 8、gbdt,xgboost,lgbm 的区别(百度、滴滴、阿里，头条)
 9、bagging 为什么能减小方差？（知乎）
 
-# 链接
+# Todos
 
 - https://www.zhihu.com/question/62482926
+- https://github.com/alexeygrigorev/data-science-interviews Data science interview questions and answers    
