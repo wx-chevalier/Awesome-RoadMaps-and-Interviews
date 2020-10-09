@@ -69,6 +69,8 @@ public static void main(String[] args) {
 
 - 常见的锁优化的思路有哪些？
 
+- 互斥锁、自旋锁、读写锁、悲观锁、乐观锁的应用场景是什么？
+
 ### 同步
 
 - CountDownLatch、CyclicBarrier、Semaphore 共同之处与区别以及各自使用场景？
