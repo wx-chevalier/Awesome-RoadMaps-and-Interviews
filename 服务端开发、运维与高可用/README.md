@@ -283,7 +283,7 @@ public class Singleton {
 
 - 如何设计 Feed 流系统，针对十万、千万、十亿等不同的用户体量时其设计有什么差异？
 
-# 链接
+# TBD
 
 - https://mp.weixin.qq.com/s/4Zip0DVMGuJPMUnv_ySGIg
 - https://github.com/digoal/blog/blob/master/201806/20180623_01.md
@@ -385,7 +385,7 @@ public class Singleton {
 
 - 点赞系统设计。
 
-# 链接
+# TBD
 
 - https://zhuanlan.zhihu.com/p/70410011
 - https://zhuanlan.zhihu.com/p/78310685 面试碰到分布式技术面试题该怎么解答？
