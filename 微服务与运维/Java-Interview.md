@@ -60,6 +60,7 @@ public static void main(String[] args) {
 ## 线程协作
 
 - 为什么不建议使用 Executors？
+- Java 中定义线程池参数的策略是什么？
 
 ## 线程安全
 
