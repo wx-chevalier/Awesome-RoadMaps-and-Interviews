@@ -56,6 +56,7 @@ public static void main(String[] args) {
 # 并发编程
 
 - Thread.sleep(0) 的作用是什么？
+- 如何减少上下文切换？
 
 ## 线程协作
 
@@ -63,6 +64,8 @@ public static void main(String[] args) {
 - Java 中定义线程池参数的策略是什么？
 
 ## 线程安全
+
+- JMM 为我们提供了哪些特性？
 
 ### 锁
 
