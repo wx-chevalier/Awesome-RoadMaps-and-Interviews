@@ -1,3 +1,55 @@
+# React
+
+- 为何在 JSX 或者 TSX 的文件首部需要引入 React？
+
+- 猜想一下，React DevTools 是如何监听 React 的状态变化？
+
+- 调用 setState 之后发生了什么？
+
+- React 中 Element 与 Component 的区别是？
+
+- 在什么情况下你会优先选择使用 Class Component 而不是 Functional Component？
+
+- React 中 keys 的作用是什么？
+
+- 如果你创建了类似于下面的 `Twitter` 元素，那么它相关的类定义是啥样子的？
+
+```js
+<Twitter username="tylermcginnis33">
+  {(user) => (user === null ? <Loading /> : <Badge info={user} />)}
+</Twitter>
+```
+
+- Controlled Component 与 Uncontrolled Component 之间的区别是什么？
+
+- 在生命周期中的哪一步你应该发起 AJAX 请求？
+
+- shouldComponentUpdate 的作用是啥以及为何它这么重要？
+
+- 如何告诉 React 它应该编译生产环境版本？
+
+- 为什么我们需要使用 React 提供的 Children API 而不是 JavaScript 的 map？
+
+- 概述下 React 中的事件处理逻辑？
+
+- createElement 与 cloneElement 的区别是什么？
+
+- 传入 setState 函数的第二个参数的作用是什么？
+
+## 函数式组件
+
+- Hooks 函数式组件与类组件相比各有何优劣？为什么 useCallback 中会存在所谓闭包冻结的现象？
+
+- 为什么 Hooks 不可在条件语句中使用？
+
+## 库与框架
+
+- 在 Antd 中如何实现主题切换的特性，如何在单个项目中打包多个不同版本的 Antd？
+
+- 在 Antd 中，如何实现表单的异步校验？如何将某个表单的数据存放到 Redux 中？
+
+- https://zhuanlan.zhihu.com/p/74258351
+
 - 调用 setState 之后发生了什么？
 
 在代码中调用 `setState` 函数之后，React 会将传入的参数对象与组件当前的状态合并，然后触发所谓的调和过程(Reconciliation)。经过调和过程，React 会以相对高效的方式根据新的状态构建 React 元素树并且着手重新渲染整个 UI 界面。在 React 得到元素树之后，React 会自动计算出新的树与老树的节点差异，然后根据差异对界面进行最小化重渲染。在差异计算算法中，React 能够相对精确地知道哪些位置发生了改变以及应该如何改变，这就保证了按需更新，而不是全部重新渲染。
@@ -22,7 +74,7 @@ class CustomForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-          <input type="text" ref={input => (this.input = input)} /> {" "}
+          <input type="text" ref={(input) => (this.input = input)} /> {" "}
         <button type="submit">Submit</button> {" "}
       </form>
     );
@@ -37,7 +89,7 @@ function CustomForm({ handleSubmit }) {
   let inputElement;
   return (
     <form onSubmit={() => handleSubmit(inputElement.value)}>
-        <input type="text" ref={input => (inputElement = input)} /> {" "}
+        <input type="text" ref={(input) => (inputElement = input)} /> {" "}
       <button type="submit">Submit</button> {" "}
     </form>
   );
@@ -66,7 +118,7 @@ render () {
 
 ```js
 <Twitter username="tylermcginnis33">
-  {user => (user === null ? <Loading /> : <Badge info={user} />)}
+  {(user) => (user === null ? <Loading /> : <Badge info={user} />)}
 </Twitter>
 ```
 
@@ -87,13 +139,13 @@ import React, { Component, PropTypes } from "react";
 import fetchUser from "twitter";
 class Twitter extends Component {
   state = {
-    user: null
+    user: null,
   };
   static propTypes = {
-    username: PropTypes.string.isRequired
+    username: PropTypes.string.isRequired,
   };
   componentDidMount() {
-    fetchUser(this.props.username).then(user => this.setState({ user }));
+    fetchUser(this.props.username).then((user) => this.setState({ user }));
   }
   render() {
     return this.props.children(this.state.user);
@@ -105,7 +157,7 @@ class Twitter extends Component {
 
 ```js
 <Twitter username="tylermcginnis33">
-    {user => (user === null ? <Loading /> : <Profile info={user} />)}
+    {(user) => (user === null ? <Loading /> : <Profile info={user} />)}
 </Twitter>
 ```
 
@@ -116,11 +168,11 @@ React 的核心组成之一就是能够维持内部状态的自治组件，不�
 ```js
 class ControlledForm extends Component {
   state = {
-    username: ""
+    username: "",
   };
-  updateUsername = e => {
+  updateUsername = (e) => {
     this.setState({
-      username: e.target.value
+      username: e.target.value,
     });
   };
   handleSubmit = () => {};
@@ -150,7 +202,7 @@ class UnControlledForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <input type="text" ref={input => (this.input = input)} />
+        <input type="text" ref={(input) => (this.input = input)} />
         <button type="submit">Submit</button> {" "}
       </form>
     );
@@ -219,7 +271,7 @@ this.setState({ username: "tylermcginnis33" }, () =>
 ```js
 this.setState((prevState, props) => {
   return {
-    streak: prevState.streak + props.count
+    streak: prevState.streak + props.count,
   };
 });
 ```
