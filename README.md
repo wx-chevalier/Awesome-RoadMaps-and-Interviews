@@ -5,12 +5,11 @@
 古语有云，知行合一，学以致用，Awesome Interviews 系列不仅仅是为了应对面试，也是对整个 ITCS 体系融会贯通的程度的检验；同时 Awesome Interviews 也包含了笔者多年面试与考察候选人的心得体会。
 
 - 点面结合：网状问题点状问，点状问题网状问，如果是一个复杂的网状问题，你就考他是不是能够三言两语跟外行说清楚。如果是一个简单的问题呢？你就看他能不能把它还原成一个知识网络。
-
 - 正反结合：对于某个技术、框架，不仅要问它的优势，也要问在实际应用过程中感受到的痛点与不足。
 
 # About
 
-## Motivation & Credits
+## Acknowledgements
 
 - [反向面试](https://github.com/yifeikong/reverse-interview-zh)
 
