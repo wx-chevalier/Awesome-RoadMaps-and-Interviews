@@ -5,3 +5,5 @@
 - v-if 指令是如何实现的？
 
 - vue-class-component 是如何实现的？如何在页面跳转前后添加自定义的操作？如何自定义装饰器？
+
+- Vue Virtual DOM Diff 的大概算法逻辑是什么？
