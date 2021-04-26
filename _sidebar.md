@@ -18,9 +18,10 @@
     - [4.3 DistributedComputing Interview](/云与分布式基础架构/DistributedComputing-Interview.md)
     - [4.4 DistributedSystem Interview](/云与分布式基础架构/DistributedSystem-Interview.md)
     - [4.5 Linux Interview](/云与分布式基础架构/Linux-Interview.md)
-    - [4.6 Rust Interview](/云与分布式基础架构/Rust-Interview.md)
+    - [4.6 Rust 面试题](/云与分布式基础架构/Rust%20面试题.md)
+    - [4.7 消息队列面试题](/云与分布式基础架构/消息队列面试题.md)
   - [5 产品经理](/产品经理/README.md)
-    - [5.1 JD](/产品经理/JD.md)
+    
   - [6 人工智能与深度学习](/人工智能与深度学习/README.md)
     - [6.1 MachineLearning Interview](/人工智能与深度学习/MachineLearning-Interview.md)
     - [6.2 Statistics Interview](/人工智能与深度学习/Statistics-Interview.md)
@@ -32,8 +33,8 @@
     - [8.2 Go Interview](/服务端架构与运维/Go-Interview.md)
     - [8.3 HA Interview](/服务端架构与运维/HA-Interview.md)
     - [8.4 Java Interview](/服务端架构与运维/Java-Interview.md)
-    - [8.5 MicroCN Interview](/服务端架构与运维/MicroCN-Interview.md)
-    - [8.6 SQL Interview](/服务端架构与运维/SQL-Interview.md)
+    - [8.5 SQL Interview](/服务端架构与运维/SQL-Interview.md)
+    - [8.6 微服务与云原生面试题](/服务端架构与运维/微服务与云原生面试题.md)
   - [9 面试基础](/面试基础/README.md)
     - 9.1 其他职位
       - [9.1.1 总经理助理](/面试基础/其他职位/总经理助理.md)
