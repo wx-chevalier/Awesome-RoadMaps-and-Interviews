@@ -435,6 +435,8 @@ function isPowerOfTwoZeroCase(number) {
 
 # TypeScript
 
+- How to create a Partial-like that requires a single property to be set
+
 ```ts
 type AtLeast<T, K extends keyof T> = Partial<T> & Pick<T, K>;
 ```
