@@ -432,3 +432,9 @@ function isPowerOfTwoZeroCase(number) {
   return number !== 0 && (number & (number - 1)) === 0;
 }
 ```
+
+# TypeScript
+
+```ts
+type AtLeast<T, K extends keyof T> = Partial<T> & Pick<T, K>;
+```
