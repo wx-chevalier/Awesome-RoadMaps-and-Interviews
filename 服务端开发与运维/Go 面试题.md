@@ -1,3 +1,5 @@
+> 参考答案请查阅《[Go-Series](https://github.com/wx-chevalier/Go-Series?q=)》
+
 # Go Interview
 
 # 语法基础

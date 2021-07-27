@@ -1,3 +1,5 @@
+> 参考答案请查阅《[Git-Series](https://github.com/wx-chevalier/Git-Series?q=)》
+
 # Workflow Interview
 
 # Git

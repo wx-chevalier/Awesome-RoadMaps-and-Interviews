@@ -1,3 +1,5 @@
+> 参考答案请查阅《[Linux-Series](https://github.com/wx-chevalier/Linux-Series?q=)》
+
 # Linux Interview | Linux 与操作系统面试题集锦
 
 # Shell 编程

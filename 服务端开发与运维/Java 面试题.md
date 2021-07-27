@@ -1,3 +1,5 @@
+> 参考答案请查阅《[Java-Series](https://github.com/wx-chevalier/Java-Series?q=)》
+
 # Awesome Java Interview | Java 面试题集锦
 
 # 语法基础

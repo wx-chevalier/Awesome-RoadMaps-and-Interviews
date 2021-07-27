@@ -1,3 +1,5 @@
+> 参考答案请查阅《[React-Series](https://github.com/wx-chevalier/React-Series?q=)》
+
 # React
 
 # 基础概念
@@ -74,8 +76,8 @@ class CustomForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-          <input type="text" ref={(input) => (this.input = input)} />
-          <button type="submit">Submit</button> {" "}
+          <input type="text" ref={(input) => (this.input = input)} /> {" "}
+        <button type="submit">Submit</button> {" "}
       </form>
     );
   }
@@ -89,8 +91,8 @@ function CustomForm({ handleSubmit }) {
   let inputElement;
   return (
     <form onSubmit={() => handleSubmit(inputElement.value)}>
-        <input type="text" ref={(input) => (inputElement = input)} />
-        <button type="submit">Submit</button> {" "}
+        <input type="text" ref={(input) => (inputElement = input)} /> {" "}
+      <button type="submit">Submit</button> {" "}
     </form>
   );
 }
