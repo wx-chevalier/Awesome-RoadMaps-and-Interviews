@@ -55,3 +55,5 @@ new A({ a: 1 }); // { a: null }
 ```ts
 type AtLeast<T, K extends keyof T> = Partial<T> & Pick<T, K>;
 ```
+
+- TypeScript 中如何实现类的多继承？
