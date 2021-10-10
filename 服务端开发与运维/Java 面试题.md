@@ -47,6 +47,8 @@ public static void main(String[] args) {
 
 - 当发现 CPU 利用率及平均负载较高时，应该如何排查？
 
+- 在使用 Docker 或者 K8s 部署 Spring 应用的时候有哪些优化技巧？
+
 ## Maven
 
 - Maven 插件（plugin）goal 的执行与生命周期（lifecycle）phase 的关系？
