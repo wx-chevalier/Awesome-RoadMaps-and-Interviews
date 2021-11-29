@@ -68,6 +68,7 @@ public static void main(String[] args) {
 
 - 为什么不建议使用 Executors？
 - Java 中定义线程池参数的策略是什么？
+- newSingleThreadScheduledExecutor 这种定时器可以运行多个任务吗？
 
 ## 线程安全
 
