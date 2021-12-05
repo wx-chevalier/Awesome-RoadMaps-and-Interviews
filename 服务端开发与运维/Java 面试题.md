@@ -10,6 +10,8 @@
 
 - Java 中的抽象类与接口各应该在何场景下使用？
 
+- Java 内部类的使用场景有哪些？
+
 ## 异常处理
 
 - Java 中 Error 与 Exception 有何设计区别？
@@ -68,6 +70,7 @@ public static void main(String[] args) {
 
 - 为什么不建议使用 Executors？
 - Java 中定义线程池参数的策略是什么？
+- newSingleThreadScheduledExecutor 这种定时器可以运行多个任务吗？
 
 ## 线程安全
 
