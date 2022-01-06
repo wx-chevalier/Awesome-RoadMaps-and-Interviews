@@ -18,7 +18,7 @@
 
 ## Java
 
-- [2017-Java Collection Interview Questions and Answer](https://parg.co/bak): Here is a list of Java Collections interview Questions. These are some of the famous questions asked in interviews.
+- [2017-Java Collection Interview Questions and Answer](https://parg.co/bak): Here is a list of Java Collections interview Questions. These are some of the famous questions asked in interviews.
 
 - [Java 高级开发工程师面试考点](http://www.sanesee.com/article/java-engineer-interview-of-content-tree)
 

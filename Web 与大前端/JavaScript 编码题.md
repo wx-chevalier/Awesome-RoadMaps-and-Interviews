@@ -104,7 +104,7 @@ function findLargestDifference(array) {
   if (array.length <= 1) return -1; // current_min 指向当前的最小值
 
   let current_min = array[0];
-  let current_max_difference = 0; // 遍历整个数组以求取当前最大差值，如果发现某个最大差值，则将新的值覆盖 current_max_difference // 同时也会追踪当前数组中的最小值，从而保证 `largest value in future` - `smallest value before it`
+  let current_max_difference = 0; // 遍历整个数组以求取当前最大差值，如果发现某个最大差值，则将新的值覆盖 current_max_difference // 同时也会追踪当前数组中的最小值，从而保证 `largest value in future` - `smallest value before it`
 
   for (let i = 1; i < array.length; i++) {
     if (

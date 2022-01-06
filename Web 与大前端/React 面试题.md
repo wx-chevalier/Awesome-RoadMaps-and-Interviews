@@ -78,8 +78,8 @@ class CustomForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-          <input type="text" ref={(input) => (this.input = input)} /> {" "}
-        <button type="submit">Submit</button> {" "}
+        <input type="text" ref={(input) => (this.input = input)} />{" "}
+        <button type="submit">Submit</button>{" "}
       </form>
     );
   }
@@ -93,8 +93,8 @@ function CustomForm({ handleSubmit }) {
   let inputElement;
   return (
     <form onSubmit={() => handleSubmit(inputElement.value)}>
-        <input type="text" ref={(input) => (inputElement = input)} /> {" "}
-      <button type="submit">Submit</button> {" "}
+      <input type="text" ref={(input) => (inputElement = input)} />{" "}
+      <button type="submit">Submit</button>{" "}
     </form>
   );
 }
@@ -106,13 +106,13 @@ Keys 是 React 用于追踪哪些列表中元素被修改、被添加或者被�
 
 ```js
 render () {
-  return (
-  <ul>
-  {this.state.todoItems.map(({task, uid}) => {
-  return <li key={uid}>{task}</li>
-  })}
-  </ul>
-  )
+  return (
+  <ul>
+  {this.state.todoItems.map(({task, uid}) => {
+  return <li key={uid}>{task}</li>
+  })}
+  </ul>
+  )
 }
 ```
 
@@ -161,7 +161,7 @@ class Twitter extends Component {
 
 ```js
 <Twitter username="tylermcginnis33">
-    {(user) => (user === null ? <Loading /> : <Profile info={user} />)}
+  {(user) => (user === null ? <Loading /> : <Profile info={user} />)}
 </Twitter>
 ```
 
@@ -189,7 +189,7 @@ class ControlledForm extends Component {
           value={this.state.username}
           onChange={this.updateUsername}
         />
-        <button type="submit">Submit</button> {" "}
+        <button type="submit">Submit</button>{" "}
       </form>
     );
   }
@@ -207,7 +207,7 @@ class UnControlledForm extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <input type="text" ref={(input) => (this.input = input)} />
-        <button type="submit">Submit</button> {" "}
+        <button type="submit">Submit</button>{" "}
       </form>
     );
   }
@@ -238,7 +238,7 @@ shouldComponentUpdate 允许我们手动地判断是否要进行组件更新，�
 
 ```jsx
 <Parent>
-    <h1>Welcome.</h1>
+  <h1>Welcome.</h1>
 </Parent>
 ```
 
@@ -246,7 +246,7 @@ shouldComponentUpdate 允许我们手动地判断是否要进行组件更新，�
 
 ```jsx
 <Parent>
-  <h1>Welcome.</h1>  <h2>props.children will now be an array</h2>
+  <h1>Welcome.</h1> <h2>props.children will now be an array</h2>
 </Parent>
 ```
 
