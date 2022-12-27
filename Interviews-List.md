@@ -1,18 +1,18 @@
 # Interviews List
 
-- [InterviewMap #Project#](https://github.com/InterviewMap/InterviewMap): uild the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.
+- [InterviewMap ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg)](https://github.com/InterviewMap/InterviewMap): uild the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.
 
-- [CS-Notes #Collection#](https://github.com/CyC2018/CS-Notes): 技术面试必备基础知识、Leetcode 题解、后端面试、Java 面试、春招、秋招、操作系统、计算机网络、系统设计
+- [CS-Notes 🗃️](https://github.com/CyC2018/CS-Notes): 技术面试必备基础知识、Leetcode 题解、后端面试、Java 面试、春招、秋招、操作系统、计算机网络、系统设计
 
-- [2018-Interviews #Collection#](https://github.com/kdn251/interviews): Everything you need to know to get the job.
+- [2018-Interviews 🗃️](https://github.com/kdn251/interviews): Everything you need to know to get the job.
 
-- [2018-Interview_Notes-Chinese #Collection#](https://github.com/imhuay/Interview_Notes-Chinese): 2018/2019/校招/春招/秋招/自然语言处理(NLP)/深度学习(Deep Learning)/机器学习(Machine Learning)/C/C++/Python/面试笔记
+- [2018-Interview_Notes-Chinese 🗃️](https://github.com/imhuay/Interview_Notes-Chinese): 2018/2019/校招/春招/秋招/自然语言处理(NLP)/深度学习(Deep Learning)/机器学习(Machine Learning)/C/C++/Python/面试笔记
 
-- [google-interview-university #Collection#](https://github.com/jwasham/google-interview-university#recursion)
+- [google-interview-university 🗃️](https://github.com/jwasham/google-interview-university#recursion)
 
-- [2019-Tech Interview Handbook #Collection#](https://github.com/yangshun/tech-interview-handbook): This repository has practical content that covers all phases of a technical interview, from applying for a job to passing the interviews to offer negotiation. Technically competent candidates might still find the non-technical content helpful as well.
+- [2019-Tech Interview Handbook 🗃️](https://github.com/yangshun/tech-interview-handbook): This repository has practical content that covers all phases of a technical interview, from applying for a job to passing the interviews to offer negotiation. Technically competent candidates might still find the non-technical content helpful as well.
 
-- [2019-Awesome Interviews #Collection#](https://github.com/MaximAbramchuck/awesome-interview-questions): :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! 🎓
+- [2019-Awesome Interviews 🗃️](https://github.com/MaximAbramchuck/awesome-interview-questions): :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! 🎓
 
 # Language
 
@@ -43,7 +43,7 @@
 
 - [interviewcake-javascript-interview-questions](https://www.interviewcake.com/javascript-interview-questions)
 
-- [2019-typeofnan-javascript-quizzes #Project#](https://quiz.typeofnan.dev/): Learn JavaScript fundamentals through fun and challenging quizzes! Star this repo on Github to follow along as new questions are added! Created by Nick Scialli and many other contributors listed below!
+- [2019-typeofnan-javascript-quizzes ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg)](https://quiz.typeofnan.dev/): Learn JavaScript fundamentals through fun and challenging quizzes! Star this repo on Github to follow along as new questions are added! Created by Nick Scialli and many other contributors listed below!
 
 - [2019-javascript-questions](https://github.com/lydiahallie/javascript-questions): A long list of (advanced) JavaScript questions, and their explanations ✨
 
