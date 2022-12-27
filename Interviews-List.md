@@ -1,6 +1,6 @@
 # Interviews List
 
-- [InterviewMap ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg)](https://github.com/InterviewMap/InterviewMap): uild the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.
+- [InterviewMap ![code](https://shorturl.at/dlxyK)](https://github.com/InterviewMap/InterviewMap): uild the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.
 
 - [CS-Notes 🗃️](https://github.com/CyC2018/CS-Notes): 技术面试必备基础知识、Leetcode 题解、后端面试、Java 面试、春招、秋招、操作系统、计算机网络、系统设计
 
@@ -43,7 +43,7 @@
 
 - [interviewcake-javascript-interview-questions](https://www.interviewcake.com/javascript-interview-questions)
 
-- [2019-typeofnan-javascript-quizzes ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg)](https://quiz.typeofnan.dev/): Learn JavaScript fundamentals through fun and challenging quizzes! Star this repo on Github to follow along as new questions are added! Created by Nick Scialli and many other contributors listed below!
+- [2019-typeofnan-javascript-quizzes ![code](https://shorturl.at/dlxyK)](https://quiz.typeofnan.dev/): Learn JavaScript fundamentals through fun and challenging quizzes! Star this repo on Github to follow along as new questions are added! Created by Nick Scialli and many other contributors listed below!
 
 - [2019-javascript-questions](https://github.com/lydiahallie/javascript-questions): A long list of (advanced) JavaScript questions, and their explanations ✨
 
