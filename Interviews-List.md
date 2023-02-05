@@ -14,6 +14,10 @@
 
 - [2019-Awesome Interviews 🗃️](https://github.com/MaximAbramchuck/awesome-interview-questions): :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! 🎓
 
+- [2021-Waking-Up ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg) ![star](https://img.shields.io/github/stars/wolverinn/Waking-Up)](https://github.com/wolverinn/Waking-Up): 计算机基础（计算机网络/操作系统/数据库/Git...）面试问题全面总结，包含详细的 follow-up question 以及答案；全部采用【问题+追问+答案】的形式，即拿即用，直击互联网大厂面试 🚀；可用于模拟面试、面试前复习、短期内快速备战面试...
+
+- [2022-apachecn/Interview ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg) ![star](https://img.shields.io/github/stars/apachecn/Interview)](https://github.com/apachecn/Interview): Interview——IT 行业应试学知识库
+
 # Language
 
 ## 算法刷题
