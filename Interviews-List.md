@@ -18,6 +18,8 @@
 
 - [2022-apachecn/Interview ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg) ![star](https://img.shields.io/github/stars/apachecn/Interview)](https://github.com/apachecn/Interview): Interview——IT 行业应试学知识库
 
+- [2022-Programmers-Overseas-Job-Interview-Handbook ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg) ![star](https://img.shields.io/github/stars/eliaszon/Programmers-Overseas-Job-Interview-Handbook)](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook): 长期以来收集了很多直投海外找工作的资源，这两天把这些资源整理一下，做个索引。方便自己日后查看，也方便其他有海外工作打算的程序员查阅。欢迎补充，欢迎提 PR~
+
 # Language
 
 ## 算法刷题
