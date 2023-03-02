@@ -1,6 +1,6 @@
 # Interviews List
 
-- [InterviewMap ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg)](https://github.com/InterviewMap/InterviewMap): uild the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.
+- [InterviewMap ![code](https://ng-tech.icu/assets/code.svg)](https://github.com/InterviewMap/InterviewMap): uild the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.
 
 - [CS-Notes 🗃️](https://github.com/CyC2018/CS-Notes): 技术面试必备基础知识、Leetcode 题解、后端面试、Java 面试、春招、秋招、操作系统、计算机网络、系统设计
 
@@ -14,17 +14,17 @@
 
 - [2019-Awesome Interviews 🗃️](https://github.com/MaximAbramchuck/awesome-interview-questions): :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! 🎓
 
-- [2021-Waking-Up ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg) ![star](https://img.shields.io/github/stars/wolverinn/Waking-Up)](https://github.com/wolverinn/Waking-Up): 计算机基础（计算机网络/操作系统/数据库/Git...）面试问题全面总结，包含详细的 follow-up question 以及答案；全部采用【问题+追问+答案】的形式，即拿即用，直击互联网大厂面试 🚀；可用于模拟面试、面试前复习、短期内快速备战面试...
+- [2021-Waking-Up ![code](https://ng-tech.icu/assets/code.svg) ![star](https://img.shields.io/github/stars/wolverinn/Waking-Up)](https://github.com/wolverinn/Waking-Up): 计算机基础（计算机网络/操作系统/数据库/Git...）面试问题全面总结，包含详细的 follow-up question 以及答案；全部采用【问题+追问+答案】的形式，即拿即用，直击互联网大厂面试 🚀；可用于模拟面试、面试前复习、短期内快速备战面试...
 
-- [2022-apachecn/Interview ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg) ![star](https://img.shields.io/github/stars/apachecn/Interview)](https://github.com/apachecn/Interview): Interview——IT 行业应试学知识库
+- [2022-apachecn/Interview ![code](https://ng-tech.icu/assets/code.svg) ![star](https://img.shields.io/github/stars/apachecn/Interview)](https://github.com/apachecn/Interview): Interview——IT 行业应试学知识库
 
-- [2022-Programmers-Overseas-Job-Interview-Handbook ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg) ![star](https://img.shields.io/github/stars/eliaszon/Programmers-Overseas-Job-Interview-Handbook)](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook): 长期以来收集了很多直投海外找工作的资源，这两天把这些资源整理一下，做个索引。方便自己日后查看，也方便其他有海外工作打算的程序员查阅。欢迎补充，欢迎提 PR~
+- [2022-Programmers-Overseas-Job-Interview-Handbook ![code](https://ng-tech.icu/assets/code.svg) ![star](https://img.shields.io/github/stars/eliaszon/Programmers-Overseas-Job-Interview-Handbook)](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook): 长期以来收集了很多直投海外找工作的资源，这两天把这些资源整理一下，做个索引。方便自己日后查看，也方便其他有海外工作打算的程序员查阅。欢迎补充，欢迎提 PR~
 
 # Language
 
 ## 算法刷题
 
-- [2021-LeetcodeTop ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg) ![star](https://img.shields.io/github/stars/afatcoder/LeetcodeTop)](https://github.com/afatcoder/LeetcodeTop): 本仓库用于汇总互联网公司技术岗考察 Leetcode 题目的热度 🔥，帮助同学们更加有针对性地准备面试。
+- [2021-LeetcodeTop ![code](https://ng-tech.icu/assets/code.svg) ![star](https://img.shields.io/github/stars/afatcoder/LeetcodeTop)](https://github.com/afatcoder/LeetcodeTop): 本仓库用于汇总互联网公司技术岗考察 Leetcode 题目的热度 🔥，帮助同学们更加有针对性地准备面试。
 
 ## Java
 
@@ -53,7 +53,7 @@
 
 - [interviewcake-javascript-interview-questions](https://www.interviewcake.com/javascript-interview-questions)
 
-- [2019-typeofnan-javascript-quizzes ![code](https://martrix-usa.oss-accelerate.aliyuncs.com/logo/code.svg)](https://quiz.typeofnan.dev/): Learn JavaScript fundamentals through fun and challenging quizzes! Star this repo on Github to follow along as new questions are added! Created by Nick Scialli and many other contributors listed below!
+- [2019-typeofnan-javascript-quizzes ![code](https://ng-tech.icu/assets/code.svg)](https://quiz.typeofnan.dev/): Learn JavaScript fundamentals through fun and challenging quizzes! Star this repo on Github to follow along as new questions are added! Created by Nick Scialli and many other contributors listed below!
 
 - [2019-javascript-questions](https://github.com/lydiahallie/javascript-questions): A long list of (advanced) JavaScript questions, and their explanations ✨
 
