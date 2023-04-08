@@ -23,7 +23,7 @@ LevelDB 整体由如下几个组成部分，
 1. Manifest 文件。Manifest 文件中记录 SST 文件在不同 Level 的分布，单个 SST 文件的最大最小 key，以及其他一些 LevelDB 需要的元信息。
 1. Current 文件。从上面的介绍可以看出，LevelDB 启动时的首要任务就是找到当前的 Manifest，而 Manifest 可能有多个。Current 文件简单的记录了当前 Manifest 的文件名。
 
-![](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/book/Andrew-Ng-DeepLearning-AI/leveldb/architecture.png)
+![](https://assets.ng-tech.icu/book/Andrew-Ng-DeepLearning-AI/leveldb/architecture.png)
 
 LevelDB 的一些核心逻辑如下，
 
@@ -38,7 +38,7 @@ LevelDB 的一些核心逻辑如下，
 
 Manifest 文件记录各个 SSTable 各个文件的管理信息，比如该 SST 文件处于哪个 Level，文件名称叫啥，最小 key 和最大 key 各自是多少，如下图所示，
 
-![](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/book/Andrew-Ng-DeepLearning-AI/leveldb/manifest.png)
+![](https://assets.ng-tech.icu/book/Andrew-Ng-DeepLearning-AI/leveldb/manifest.png)
 
 ## Log 文件
 
@@ -46,11 +46,11 @@ Log 文件主要作用是系统发生故障时，能够保证不会丢失数据�
 
 每个 Log 文件由多个 block 组成，每个 block 大小为 32K，读取和写入以 block 为基本单位。下图所示的 Log 文件包含 3 个 Block，
 
-![](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/book/Andrew-Ng-DeepLearning-AI/leveldb/log.png)
+![](https://assets.ng-tech.icu/book/Andrew-Ng-DeepLearning-AI/leveldb/log.png)
 
 ### SSTable
 
-![](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/book/Andrew-Ng-DeepLearning-AI/leveldb/sstable.png)
+![](https://assets.ng-tech.icu/book/Andrew-Ng-DeepLearning-AI/leveldb/sstable.png)
 
 ## MemTable
 
