@@ -1,1 +1,1 @@
-请设计一个load balancer。
+请设计一个 load balancer。
