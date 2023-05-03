@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Linux-Series](https://github.com/wx-chevalier/Linux-Series?q=)》
+> 参考答案请查阅《[Linux-Notes](https://github.com/wx-chevalier/Linux-Notes?q=)》
 
 # Linux Interview | Linux 与操作系统面试题集锦
 

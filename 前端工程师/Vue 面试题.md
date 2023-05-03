@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Vue-Series](https://github.com/wx-chevalier/Vue-Series?q=)》
+> 参考答案请查阅《[Vue-Notes](https://github.com/wx-chevalier/Vue-Notes?q=)》
 
 # Vue
 

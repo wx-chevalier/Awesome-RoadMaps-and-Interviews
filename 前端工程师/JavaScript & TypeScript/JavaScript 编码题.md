@@ -1,4 +1,4 @@
-> 参考答案请查阅《[JavaScript-Series](https://github.com/wx-chevalier/JavaScript-Series?q=)》
+> 参考答案请查阅《[JavaScript-Notes](https://github.com/wx-chevalier/JavaScript-Notes?q=)》
 
 # JavaScript 编码题
 

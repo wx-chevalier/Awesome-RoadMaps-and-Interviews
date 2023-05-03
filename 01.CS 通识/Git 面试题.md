@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Git-Series](https://github.com/wx-chevalier/Git-Series?q=)》
+> 参考答案请查阅《[Git-Notes](https://github.com/wx-chevalier/Git-Notes?q=)》
 
 # Workflow Interview
 

@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Cloud-Series](https://github.com/wx-chevalier/Cloud-Series?q=)》
+> 参考答案请查阅《[Cloud-Notes](https://github.com/wx-chevalier/Cloud-Notes?q=)》
 
 # 云计算与虚拟化
 

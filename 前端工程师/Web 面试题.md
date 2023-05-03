@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Web-Series](https://github.com/wx-chevalier/Web-Series?q=)》
+> 参考答案请查阅《[Web-Notes](https://github.com/wx-chevalier/Web-Notes?q=)》
 
 # Web Interview
 

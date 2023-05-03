@@ -1,4 +1,4 @@
-> 参考答案请查阅《[React-Series](https://github.com/wx-chevalier/React-Series?q=)》
+> 参考答案请查阅《[React-Notes](https://github.com/wx-chevalier/React-Notes?q=)》
 
 # React
 

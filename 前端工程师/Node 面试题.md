@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Node-Series](https://github.com/wx-chevalier/Node-Series?q=)》
+> 参考答案请查阅《[Node-Notes](https://github.com/wx-chevalier/Node-Notes?q=)》
 
 # Node Interview
 

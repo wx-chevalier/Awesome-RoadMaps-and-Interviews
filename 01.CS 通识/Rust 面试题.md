@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Rust-Series](https://github.com/wx-chevalier/Rust-Series?q=)》
+> 参考答案请查阅《[Rust-Notes](https://github.com/wx-chevalier/Rust-Notes?q=)》
 
 # Rust Interview
 

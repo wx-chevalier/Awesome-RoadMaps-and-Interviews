@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Go-Series](https://github.com/wx-chevalier/Go-Series?q=)》
+> 参考答案请查阅《[Go-Notes](https://github.com/wx-chevalier/Go-Notes?q=)》
 
 # Go Interview
 

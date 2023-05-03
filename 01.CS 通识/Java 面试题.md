@@ -1,4 +1,4 @@
-> 参考答案请查阅《[Java-Series](https://github.com/wx-chevalier/Java-Series?q=)》
+> 参考答案请查阅《[Java-Notes](https://github.com/wx-chevalier/Java-Notes?q=)》
 
 # Awesome Java Interview | Java 面试题集锦
 
