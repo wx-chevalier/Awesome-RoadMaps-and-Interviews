@@ -61,7 +61,7 @@
 
 ## Web
 
-- [2017-Front End Interview Handbook #Book#](https://github.com/yangshun/front-end-interview-handbook): Almost complete answers to "Front-end Job Interview Questions"
+- [2017-Front End Interview Handbook 📚](https://github.com/yangshun/front-end-interview-handbook): Almost complete answers to "Front-end Job Interview Questions"
 
 ### Node
 
