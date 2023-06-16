@@ -1,4 +1,4 @@
-![题图](https://i.postimg.cc/LXfPysx5/image.png)
+![题图](https://assets.ng-tech.icu/item/20230616143106.png)
 
 # Awesome Interviews
 
