@@ -4,9 +4,9 @@
 
 - [CS-Notes 🗃️](https://github.com/CyC2018/CS-Notes): 技术面试必备基础知识、Leetcode 题解、后端面试、Java 面试、春招、秋招、操作系统、计算机网络、系统设计
 
-- [2018-Interviews 🗃️](https://github.com/kdn251/interviews): Everything you need to know to get the job.
+- [2018~Interviews 🗃️](https://github.com/kdn251/interviews): Everything you need to know to get the job.
 
-- [2018-Interview_Notes-Chinese 🗃️](https://github.com/imhuay/Interview_Notes-Chinese): 2018/2019/校招/春招/秋招/自然语言处理(NLP)/深度学习(Deep Learning)/机器学习(Machine Learning)/C/C++/Python/面试笔记
+- [2018~Interview_Notes-Chinese 🗃️](https://github.com/imhuay/Interview_Notes-Chinese): 2018/2019/校招/春招/秋招/自然语言处理(NLP)/深度学习(Deep Learning)/机器学习(Machine Learning)/C/C++/Python/面试笔记
 
 - [google-interview-university 🗃️](https://github.com/jwasham/google-interview-university#recursion)
 
@@ -36,7 +36,7 @@
 
 - [Top 10 Mistakes Java Developers Make](http://www.gauravkgupta.com/top-10-mistakes-java-developers-make/)
 
-- [2018-Java 面试题，精品合集](http://www.iocoder.cn/Interview/good-collection/?title)
+- [2018~Java 面试题，精品合集](http://www.iocoder.cn/Interview/good-collection/?title)
 
 ## JavaScript
 
