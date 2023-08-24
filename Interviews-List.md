@@ -28,7 +28,7 @@
 
 ## Java
 
-- [2017-Java Collection Interview Questions and Answer](https://parg.co/bak): Here is a list of Java Collections interview Questions. These are some of the famous questions asked in interviews.
+- [2017~Java Collection Interview Questions and Answer](https://parg.co/bak): Here is a list of Java Collections interview Questions. These are some of the famous questions asked in interviews.
 
 - [Java 高级开发工程师面试考点](http://www.sanesee.com/article/java-engineer-interview-of-content-tree)
 
@@ -44,7 +44,7 @@
 
 - [Interview Algorithm Questions in Javascript() {...}](https://github.com/kennymkchan/interview-questions-in-javascript)
 
-- [2017-The Best Frontend JavaScript Interview Questions (written by a Frontend Engineer)](https://parg.co/bIL)
+- [2017~The Best Frontend JavaScript Interview Questions (written by a Frontend Engineer)](https://parg.co/bIL)
 
 - [toptal-interview-questions](https://www.toptal.com/javascript/interview-questions)
 - [21-essential-javascript-tech-interview-practice-questions-answers](https://www.codementor.io/javascript/tutorial/21-essential-javascript-tech-interview-practice-questions-answers)
@@ -61,7 +61,7 @@
 
 ## Web
 
-- [2017-Front End Interview Handbook 📚](https://github.com/yangshun/front-end-interview-handbook): Almost complete answers to "Front-end Job Interview Questions"
+- [2017~Front End Interview Handbook 📚](https://github.com/yangshun/front-end-interview-handbook): Almost complete answers to "Front-end Job Interview Questions"
 
 ### Node
 
@@ -69,7 +69,7 @@
 
 ### React
 
-- [2017-React 常用面试题目与分析](https://zhuanlan.zhihu.com/p/24856035)
+- [2017~React 常用面试题目与分析](https://zhuanlan.zhihu.com/p/24856035)
 
 ### Vue
 
