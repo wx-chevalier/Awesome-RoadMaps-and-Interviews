@@ -95,6 +95,8 @@
 
 - [data-science-interviews](https://github.com/alexeygrigorev/data-science-interviews): Data science interview questions and answers.
 
+- [Artificial Intelligence (AI) Interview Questions and Answers](https://www.appliedaicourse.com/blog/ai-interview-questions/): Your ultimate guide to acing A.I. interviews!
+
 # Infrastructure
 
 ## Linux
