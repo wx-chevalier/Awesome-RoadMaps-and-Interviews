@@ -18,7 +18,7 @@
 
 - 查询范围[l, u)时，从粗粒度到细粒度，找到多个区间，能够不重不漏完整覆盖区间[l, u)，将这些 sketch 的值加起来，就是该范围内的元素总数。举个例子，给定某个范围，如下图所示，最粗粒度的那个 sketch 里找不到一个格子，就往细粒度找，最后找到第 1 个 sketch 的 2 个格子，第 2 个 sketch 的 1 个格子和第 3 个 sketch 的 1 个格子，共 4 个格子，能够不重不漏的覆盖整个范围，把 4 个红线部分的值加起来就是所求结果
 
-  ![](../https://assets.ng-tech.icu/book/Andrew-Ng-DeepLearning-AI/array-of-count-min-sketch.png)
+  ![](../https://ngte-superbed.oss-cn-beijing.aliyuncs.com/book/Andrew-Ng-DeepLearning-AI/array-of-count-min-sketch.png)
 
 ### 参考资料
 

@@ -22,7 +22,7 @@ Count-Min Sketch 算法流程：
 1. 对于每个元素，分别使用 d 个 hash 函数计算相应的哈希值，并对 m 取余，然后在对应的位置上增 1，二维数组中的每个整数称为 sketch
 1. 要查询某个元素的频率时，只需要取出 d 个 sketch, 返回最小的那一个（其实 d 个 sketch 都是该元素的近似频率，返回任意一个都可以，该算法选择最小的那个）
 
-![](../https://assets.ng-tech.icu/book/Andrew-Ng-DeepLearning-AI/count-min-sketch.jpg)
+![](../https://ngte-superbed.oss-cn-beijing.aliyuncs.com/book/Andrew-Ng-DeepLearning-AI/count-min-sketch.jpg)
 
 这个方法的思路和 Bloom Filter 比较类似，都是用多个 hash 函数来降低冲突。
 
