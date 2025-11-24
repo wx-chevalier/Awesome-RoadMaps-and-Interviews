@@ -242,7 +242,7 @@ shouldComponentUpdate 允许我们手动地判断是否要进行组件更新，�
 </Parent>
 ```
 
-如果我们使用`props.children.map`函数来遍历时会受到异常提示，因为在这种情况下`props.children`是对象(object)而不是数组(array)。React 当且仅当超过一个子元素的情况下会将`props.children`设置为数组，就像下面这个代码片：
+如果我们使用 `props.children.map` 函数来遍历时会受到异常提示，因为在这种情况下 `props.children` 是对象(object)而不是数组(array)。React 当且仅当超过一个子元素的情况下会将`props.children`设置为数组，就像下面这个代码片：
 
 ```jsx
 <Parent>
