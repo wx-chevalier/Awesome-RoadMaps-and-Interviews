@@ -121,12 +121,6 @@ render () {
 - 如果你创建了类似于下面的 `Twitter` 元素，那么它相关的类定义是啥样子的？
 
 ```js
-<Twitter username="tylermcginnis33">
-  {(user) => (user === null ? <Loading /> : <Badge info={user} />)}
-</Twitter>
-```
-
-```js
 import React, { Component, PropTypes } from "react";
 import fetchUser from "twitter";
 // fetchUser take in a username returns a promise
