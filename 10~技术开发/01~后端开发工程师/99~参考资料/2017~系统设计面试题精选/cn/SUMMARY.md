@@ -12,7 +12,7 @@
 - [网络爬虫](crawler.md)
 - [PageRank](pagerank.md)
 - [搜索引擎](search-engine.md)
-- [大数据](bigdata/README.md)
+- [大数据](00~Cheval/00~Interviews/Awesome-Interviews/10~技术开发/01~后端开发工程师/99~参考资料/2017~系统设计面试题精选/cn/bigdata/README.md)
   - [数据流采样](bigdata/data-stream-sampling.md)
   - [基数估计](bigdata/cardinality-estimation.md)
   - [频率估计](bigdata/frequency-estimation.md)
@@ -21,4 +21,4 @@
   - [成员查询](bigdata/membership-query.md)
 - 附录
   - [跳表(Skip List)](appendix/skip-list.md)
-  - [Raft](appendix/raft.md)
+  - [Raft](raft.md)

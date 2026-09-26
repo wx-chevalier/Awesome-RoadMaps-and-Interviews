@@ -9,7 +9,7 @@
 
 本篇也希望能够将面试扩展于算法之外，使得面试尽可能贴合日常工作所需。
 
-更多介绍与导览参阅 [INTRODUCTION](./INTRODUCTION.md)。
+更多介绍与导览参阅 [INTRODUCTION](00~Cheval/00~Interviews/Awesome-Interviews/INTRODUCTION.md)。
 
 # About
 
